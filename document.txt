@@ -1,0 +1,59 @@
+
+Certainly! Here's a brief documentation outline for each process:
+
+Importing raw sample data set to a DB Collection:
+
+Description: This process involves importing raw sample data into a database collection for further analysis and manipulation.
+Steps:
+Choosed a suitable database system e.g., MongoDB compass
+Written a script to parse the raw data and insert it into the designated collection.
+Ensured the script handles errors gracefully and logs any relevant information.
+Horizontal time scale with timestamp:
+
+Description: Data is organized on a horizontal time scale, with each data point associated with a timestamp.
+Requirements:
+Database schema should include a timestamp field.
+The timestamp field should be indexed for efficient querying.
+Plotting based on sample values:
+
+Description: Plotting data based on the sample values retrieved from the database.
+Requirements:
+Utilize a plotting library such as Matplotlib or Plotly.
+Query the database for relevant data.
+Plot the data according to specified conditions (e.g., yellow for 0, green for 1, red for missing).
+Generating a summary in tabular format:
+
+Description: Generating a summary table containing statistics derived from the sample data.
+Requirements:
+Query the database to count occurrences of 0s, 1s, and continuous sequences.
+Utilize a tabulation library like Pandas to organize the summary data.
+Present the summary in a clear and concise format.
+Writing an API for filtering data:
+
+Description: Creating an API to allow users to filter data based on specified time ranges.
+Requirements:
+Choose a web framework (e.g., Flask, Django) to build the API.
+Define endpoints for different filtering options (e.g., hour to hour, starting time, frequency).
+Implement logic to query the database based on user-provided parameters.
+Integrating a third-party API for location and temperature:
+
+Description: Integrating a third-party weather API to retrieve location and temperature data.
+Requirements:
+Select a weather API provider (e.g., OpenWeatherMap, Weatherstack).
+Write functions to fetch location and temperature data from the API.
+Integrate the fetched data with the existing database schema.
+Sample generation simulator (Bonus):
+
+Description: Building a simulator to generate sample data for testing and development purposes.
+Requirements:
+Write a script to simulate the generation of sample data.
+Define parameters for the data generation process (e.g., time range, frequency, sample values).
+Ensure the generated data adheres to the format expected by the database schema.
+Publishing code to GitHub:
+
+Description: Sharing the codebase and related documentation on a public GitHub repository.
+Requirements:
+Create a public repository on GitHub.
+Upload all relevant code files, including scripts, API endpoints, and configuration files.
+Provide documentation, including a README file explaining the project structure, setup instructions, and usage guidelines.
+
